@@ -138,3 +138,45 @@
   width: 50px !important;
   object-fit: cover;
 }
+
+@media only screen and (max-width: 1450px) {
+
+  .App {
+    width: 100vw !important;
+    padding: 2rem;
+  }
+
+  .resume-cta {
+    float: none !important;
+    margin: auto;
+  }
+
+  .Bio-contianer {
+    text-align: center;
+    display: block;
+  }
+
+  .profile-contianer {
+    padding: 1rem;
+  }
+
+  .my-title {
+    text-align: center;
+  }
+
+  .details {
+    padding: 1rem;
+  }
+
+  .social-media {
+    height: 50px !important;
+    width: 50px !important;
+    column-gap: 0.2rem;
+  }
+
+  .social-media img {
+    height: 20px;
+    width: 20px !important;
+  }
+
+}
